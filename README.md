@@ -1,5 +1,5 @@
 # USTH-SE-2019
-Software Engineering USTH
+Software Engineering at USTH, Spring 2019
 
 Introduction Slides:
 https://www.dropbox.com/s/ljzh9m090y4fsgz/Course%20Info.pptx?dl=0
