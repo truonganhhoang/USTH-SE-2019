@@ -13,7 +13,6 @@ http://rogerdudler.github.io/git-guide/
 <h1>Noah</h1>
 <h3>Project Description</h3>
 <p>How to basically, literally cook EVERYTHING without the oven</p>
-<hr>
 <h1>Lary Coder suck my dick</h1>
 <h3>Team Member Roles: </h3>
 <ul>
