@@ -10,3 +10,15 @@ https://docs.google.com/spreadsheets/d/1hEnIT3HrMlHvfNIApp7-WroqWzYDbisBFx0uOqV_
 Learn basics of Git (many other materials online)
 http://rogerdudler.github.io/git-guide/
 
+<h1>Noah</h1>
+<h3>Project Description</h3>
+<p>How to basically, literally cook EVERYTHING without the oven</p>
+<hr>
+<h1>Lary Coder suck my dick</h1>
+<h3>Team Member Roles: </h3>
+<ul>
+  <li>Dan Nguyen: Leader, Database Management, Front-End</li>
+  <li>Phong Vu: Co-Leader, Front-End, Back-End</li>
+  <li>Tuan Tran: QA, Front-End</li>
+  <li>Tung Ngo: Front-End, Back-End</li>
+</ul>
