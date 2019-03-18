@@ -1,10 +1,10 @@
 # USTH-SE-2019
 
 Project content:
--Create a website/app to follow esports activities
+-Create a simple game (dont know what yet) using CPP.
 Background:
--Scrum
--HTML5, Boostraps (may add more)
+-Scrum.
+-CPP.
 
 Đào Bình Minh - Developer/Product Owner
 Nguyễn Duy Minh - Developer/Scrum Master
