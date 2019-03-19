@@ -1,22 +1,3 @@
-# USTH-SE-2019
-
-Project content:
-
--Create a simple game 2D platform shooter game using Cpp.
-
-Background:
--Scrum.
--CPP.
-
-Members:
-
-Đào Bình Minh - Developer/Product Owner.
-
-Nguyễn Duy Minh - Developer/Scrum Master.
-
-Đặng Nhật Minh - Developer.
-
-
 Software Engineering at USTH, Spring 2019
 
 Introduction Slides:
