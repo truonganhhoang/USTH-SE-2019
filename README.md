@@ -6,8 +6,9 @@ Background:
 -Scrum.
 -CPP.
 
-Đào Bình Minh - Developer/Product Owner
-Nguyễn Duy Minh - Developer/Scrum Master
+Đào Bình Minh - Developer/Product Owner.
+Nguyễn Duy Minh - Developer/Scrum Master.
+Đặng Nhật Minh - Developer.
 
 
 Software Engineering at USTH, Spring 2019
