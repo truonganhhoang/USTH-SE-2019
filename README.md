@@ -9,7 +9,6 @@ https://docs.google.com/spreadsheets/d/1hEnIT3HrMlHvfNIApp7-WroqWzYDbisBFx0uOqV_
 
 Learn basics of Git (many other materials online)
 http://rogerdudler.github.io/git-guide/
-
 <h1>Noah</h1>
 <h3>Project Description</h3>
 <p>How to basically, literally cook EVERYTHING without the oven</p>
