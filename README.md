@@ -1,7 +1,7 @@
 # USTH-SE-2019
 
 Project content:
--Create a simple game (dont know what yet) using CPP.
+-Create a simple game 2D platform shooter game using Cpp.
 Background:
 -Scrum.
 -CPP.
