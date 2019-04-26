@@ -1,14 +1,9 @@
 package view;
+
 import model.Task;
 
-import javax.swing.BoxLayout;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import java.awt.BorderLayout;
-import java.awt.Component;
-import java.awt.Font;
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 
 public class View extends JFrame {
@@ -18,11 +13,13 @@ public class View extends JFrame {
     private JScrollPane scrollPanel;
     private JPanel southPanel;
     private JLabel statusLabel;
-    private TaskPanel taskPanel;
+    private ArrayList<TaskPanel> taskPanel;
     private JLabel ToDoLabel;
+    private JButton addButton;
+    private Box myBox;
 
-    public View() {
-        taskPanel = new TaskPanel(new Task("hello world"));
+    public View(ArrayList<Task> myList) {
+        taskPanel = new ArrayList<TaskPanel>();
         this.setTitle("Todo List");
         myFrame = this;
         ToDoLabel = new JLabel("Todo List");
@@ -31,6 +28,17 @@ public class View extends JFrame {
         centerPanel = new JPanel();
 
         statusLabel = new JLabel("Hi there!");
+
+        // add button setting
+        addButton = new JButton(new ImageIcon("icons/AddButton.png"));
+        addButton.setActionCommand("Add Task");
+        addButton.setBorder(BorderFactory.createEmptyBorder());
+        addButton.setContentAreaFilled(false);
+        addButton.setFocusPainted(false);
+
+        // myBox setting
+        myBox = Box.createVerticalBox();
+        myBox.setAlignmentX(Component.LEFT_ALIGNMENT);
 
         //frame setting
         this.setSize(300, 400);
@@ -42,6 +50,12 @@ public class View extends JFrame {
 
         //panel setting
         northPanel.setLayout(new BoxLayout(northPanel, BoxLayout.LINE_AXIS));
+        northPanel.add(Box.createRigidArea(new Dimension(10, 0)));
+        northPanel.add(addButton);
+        northPanel.add(Box.createHorizontalGlue());
+        northPanel.add(ToDoLabel);
+        northPanel.add(Box.createHorizontalGlue());
+
 
         southPanel.setLayout(new BoxLayout(southPanel, BoxLayout.PAGE_AXIS));
         statusLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -51,13 +65,39 @@ public class View extends JFrame {
         ToDoLabel.setFont(new Font("Cooper Black", Font.BOLD, 30));
 
         //add components to frame
-        centerPanel.add(taskPanel);
+        centerPanel.add(myBox);
         scrollPanel = new JScrollPane(centerPanel);
         scrollPanel.setBorder(null);
         this.add(scrollPanel);
         this.add(southPanel, BorderLayout.SOUTH);
         this.add(northPanel, BorderLayout.NORTH);
-
         this.setVisible(true);
+    }
+
+    public void addTask(TaskPanel myTaskPanel) {
+        taskPanel.add(myTaskPanel);
+        myTaskPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+        myBox.add(myTaskPanel);
+        this.setVisible(true);
+    }
+
+    public String getInputFromDialog() {
+        return JOptionPane.showInputDialog("Enter your plan: ");
+    }
+
+    public JButton getAddButton() {
+        return addButton;
+    }
+
+    public Box getBox() {
+        return myBox;
+    }
+
+    public JFrame getFrame() {
+        return myFrame;
+    }
+
+    public ArrayList<TaskPanel> getTaskPanels() {
+        return taskPanel;
     }
 }
