@@ -16,6 +16,7 @@ public class View extends JFrame {
     private ArrayList<TaskPanel> taskPanel;
     private JLabel ToDoLabel;
     private JButton addButton;
+    private JButton trashButton;
     private Box myBox;
 
     public View(ArrayList<Task> myList) {
@@ -28,6 +29,7 @@ public class View extends JFrame {
         centerPanel = new JPanel();
 
         statusLabel = new JLabel("Hi there!");
+        trashButton = new JButton(new ImageIcon("icons/TrashButton.png"));
 
         // add button setting
         addButton = new JButton(new ImageIcon("icons/AddButton.png"));
@@ -35,6 +37,12 @@ public class View extends JFrame {
         addButton.setBorder(BorderFactory.createEmptyBorder());
         addButton.setContentAreaFilled(false);
         addButton.setFocusPainted(false);
+
+        //trashButton setting
+        trashButton.setActionCommand("Delete All");
+        trashButton.setBorder(BorderFactory.createEmptyBorder());
+        trashButton.setContentAreaFilled(false);
+        trashButton.setFocusPainted(false);
 
         // myBox setting
         myBox = Box.createVerticalBox();
@@ -55,6 +63,9 @@ public class View extends JFrame {
         northPanel.add(Box.createHorizontalGlue());
         northPanel.add(ToDoLabel);
         northPanel.add(Box.createHorizontalGlue());
+        northPanel.add(trashButton);
+        northPanel.add(Box.createRigidArea(new Dimension(10, 50)));
+
 
 
         southPanel.setLayout(new BoxLayout(southPanel, BoxLayout.PAGE_AXIS));
@@ -89,6 +100,10 @@ public class View extends JFrame {
         return addButton;
     }
 
+    public JButton getTrashButton() {
+        return trashButton;
+    }
+
     public Box getBox() {
         return myBox;
     }
@@ -100,4 +115,5 @@ public class View extends JFrame {
     public ArrayList<TaskPanel> getTaskPanels() {
         return taskPanel;
     }
+
 }
