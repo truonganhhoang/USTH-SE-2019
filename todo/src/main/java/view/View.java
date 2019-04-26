@@ -1,6 +1,8 @@
 package view;
 
+import controller.Controller;
 import model.Task;
+import model.List;
 
 import javax.swing.*;
 import java.awt.*;
@@ -114,6 +116,20 @@ public class View extends JFrame {
 
     public ArrayList<TaskPanel> getTaskPanels() {
         return taskPanel;
+    }
+
+    public void DeleteConfirmDialog(Controller me, List model) {
+        int response = JOptionPane.showConfirmDialog(null, "Are you sure to delete all tasks?", "Warning",
+                JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+        if (response == JOptionPane.NO_OPTION) {
+            System.out.println("No button clicked");
+        } else if (response == JOptionPane.YES_OPTION) {
+            System.out.println("Yes button clicked");
+            model.clear();
+            me.updateView(true);
+        } else if (response == JOptionPane.CLOSED_OPTION) {
+            System.out.println("JOptionPane closed");
+        }
     }
 
 }
