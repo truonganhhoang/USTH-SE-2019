@@ -1,0 +1,55 @@
+<style>
+.button {
+font-size:500px;
+float:center;
+padding: 12px 16px;
+background-color: green;
+
+}
+.button:hover {
+  background-color: tomato;
+}
+
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+ 
+header, footer {
+	font-size: 25px;
+    padding: 4em;
+    color: white;
+    background-color: pink;
+    clear: left;
+    text-align: center;
+
+    height:10%;
+}
+ 
+nav {
+	font-size: 30px;
+    float: left;
+    max-width: 600px;
+    margin: 1;
+    padding:1em;
+	
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+    
+nav ul a {
+    text-decoration: none;
+}
+ 
+article {
+    margin-left: 590px;
+    border-left: 0px solid gray;
+    padding: 10%;
+
+
+}
+</style>
