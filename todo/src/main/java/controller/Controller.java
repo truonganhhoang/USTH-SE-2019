@@ -51,6 +51,12 @@ public class Controller {
             for (Task task : model) {
                 TaskPanel newTaskPanel = new TaskPanel(task);
                 newTaskPanel.getRemoveMe().addActionListener(new ClickButtonAction());
+                if (task.getState().equals("done")) {
+                    newTaskPanel.getMyCheckBox().setSelected(true);
+                } else {
+                    newTaskPanel.getMyCheckBox().setSelected(false);
+                }
+                newTaskPanel.getMyCheckBox().addActionListener(new CheckBoxAction());
                 view.addTask(newTaskPanel);
             }
             view.getFrame().setVisible(true);
@@ -71,7 +77,7 @@ public class Controller {
                     model.showList();
                     me.updateView(true);
                 }
-            }else if (command.equals("Delete All")) {
+            } else if (command.equals("Delete All")) {
                 view.DeleteConfirmDialog(me, model);
             } else if (command.equals("Remove Me")) {
                 JButton source = (JButton) e.getSource();
@@ -81,6 +87,18 @@ public class Controller {
                 me.updateView(true);
                 model.showList();
             }
+        }
+    }
+
+    public class CheckBoxAction implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            JCheckBox cb = (JCheckBox) e.getSource();
+            boolean selected = cb.getModel().isSelected();
+            int id = view.getTaskPanels().indexOf(cb.getParent());
+            if (selected)
+                model.get(id).setState("done");
+            else model.get(id).setState("not done");
+            model.showList();
         }
     }
 }
