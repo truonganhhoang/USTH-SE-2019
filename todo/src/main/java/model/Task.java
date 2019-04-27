@@ -3,11 +3,16 @@ package model;
 public class Task {
 
     private String content;
-    private String state;
+    private String state = "not done";
 
     // Task constructors
     public Task(String content) {
-        this.content = content;
+        if (content != "") {
+            this.content = content;
+        }
+        else if (content == ""){
+            System.out.println("Content should not be empty!");
+        }
     }
 
     public Task(String content, String state) {
@@ -16,9 +21,9 @@ public class Task {
     }
 
     //add new content
-    public void addContent(String newContent) {
+    /*public void addContent(String newContent) {
         this.content = newContent;
-    }
+    }*/
 
     //get content
     public String getContent() {
