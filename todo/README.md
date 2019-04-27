@@ -5,10 +5,10 @@
 * Coding language: Java with framework Maven
 
 # **Team members:**
-* Pham Thi Ngoc Mai (USTHBI8-109): Product Owner, Scrum Team's member
-* Vu Khanh Huyen (USTHBI8-074): Scrum Team's member
-* Doan Lien Huong (USTHBI8-078): Scrum Team's member
-* Nguyen Huu Chi Dat (USTHBI8-040): Srum Master, Scrum Team's member
+* Pham Thi Ngoc Mai (USTHBI8-109): Product Owner, Scrum Team's member [user story](https://github.com/linhhonblade/USTH-SE-2019/issues/10)
+* Vu Khanh Huyen (USTHBI8-074): Scrum Team's member [user story](https://github.com/linhhonblade/USTH-SE-2019/issues/18)
+* Doan Lien Huong (USTHBI8-078): Scrum Team's member [user story](https://github.com/linhhonblade/USTH-SE-2019/issues/11)
+* Nguyen Huu Chi Dat (USTHBI8-040): Srum Master, Scrum Team's member [user story](https://github.com/linhhonblade/USTH-SE-2019/issues/16)
 
 
 # **Instruction to run Demos:**
