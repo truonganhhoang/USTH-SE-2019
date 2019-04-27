@@ -1,0 +1,34 @@
+8 Advantages of Databases for Any Type of Business
+
+1. Ability to store large amounts of information
+
+This ability is essential for large companies with a large number of customers and this volume of information must be handled very precisely.
+
+2. Sharing information
+
+Databases allow users to share common information. Therefore, if you have a business with different company locations you can share your data at same time with the different business locations.
+
+3. Having quick access to information
+
+The information is obtained quickly and easily, which greatly facilitates the work and allows you having better customer service.
+
+4. Eliminating duplications
+
+By centralizing all information in a database you prevent duplication of existing information which usually presents a common problem in business.
+
+5. Increasing productivity
+
+Access to information is faster now than ever before. Information will be structured without any duplication – allowing you to work better, faster with increased productivity in your company.
+
+6. Reducing storage space
+
+Information is digitized so it takes less space than when stored on paper. You will always have certain documents that will have to be on paper. Try to scan all of your documentation. It is a large initial effort it will make all your tasks easier.
+
+7. Information Security
+
+A database can have several parts depending on users. You can limit certain access to certain parts of the data for certain users. That way the security and confidentiality of data will be guaranteed and secured.
+
+8. Easy maintenance
+
+As the information is digitized it is easier and economical to carry out any maintenance.
+
