@@ -1,6 +1,6 @@
 # USTH-SE-2019
-This is web project of team 8 USTH we use [this](http://www.jogosgratispro.com/demo/freakymath/index.html) as reference
-The whole project is in this [link](https://github.com/larycoder/USTH-SE-2019/tree/project)
+- This is web project of team 8 USTH we use [this](http://www.jogosgratispro.com/demo/freakymath/index.html) as reference
+- The whole project is in this [link](https://github.com/larycoder/USTH-SE-2019/tree/project)
 ## Finishing project:
 - Trương Sĩ Thi Vũ - Scrum Master : build random_Math : task list [here](https://github.com/larycoder/USTH-SE-2019/issues/15)
 
