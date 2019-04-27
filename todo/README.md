@@ -10,8 +10,10 @@
 * Doan Lien Huong (USTHBI8-078): Scrum Team's member
 * Nguyen Huu Chi Dat (USTHBI8-040): Srum Master, Scrum Team's member
 
-# **Installtion:** 
-* Download [this zip file]()
-* Unzip and go to 
-* Run this command:  
+
+# **Instruction to run Demos:**
+* Download [this zip file](https://github.com/linhhonblade/USTH-SE-2019/blob/todo/todo/out/demos.zip)
+* Unzip and go to artifacts
+* Run this command: java -jar <demo_file_name.jar>  
 (Require: [install JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html))
+
