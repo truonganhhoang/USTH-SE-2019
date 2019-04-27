@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css\style.css">
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+<center>
+function changeText() {
+   var currenttext = document.getElementById("special-paragraph").innerHTML;
+   var text1 = "Welcome to our quizzle website!"
+   var text2 = "Let's have some fun! Shall we?"
+   if (currenttext == text1) {
+       document.getElementById("special-paragraph").innerHTML = text2;
+   } else {
+       document.getElementById("special-paragraph").innerHTML = text1;
+   }
+}
+setInterval(changeText, 1500)
+ </script>
+   <center>
+   <title>Quizz</title>
+   </center>
+</center>
+</head>
+<center>
+<body style="background-color: Darkorange">
+<div class ="container">
+<header>
+<br>
+<br>
+<br>
+<h1 id= "special-paragraph"> Welcome to our quizzle website! </h1>
+</header>
+<nav>
+<br>
+<br>
+<li><a href= "https://github.com/nguyentracthanh/USTH-SE-2019/wiki/Information" target="_blank"> About us </a></li>
+<br>
+<br>
+<li><a href = "https://www.facebook.com/TheUnKnown.KuyMin"; target="_blank"; title="Dev team"> Our Facebook</a></li>
+<br>
+<br>
+
+
+
+
+</nav>
+<article>
+<br>
+<br>
+<button class="button"; style="font-size:60px;border-radius: 12px;"><a href="main.html">Let's play!</a></button>
+
+
+</article>
+
+
+</div>
+	</body>
+	</center>
+</html>
