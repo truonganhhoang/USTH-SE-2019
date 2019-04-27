@@ -1,4 +1,13 @@
 ========================
+Before you run this application, please read me first!!!
+=======================================
+
+Import two databases in "My database"  folder first
+Run my application while open the database
+This application can store your pictures to phpmyadmin and manage them such as Upload,Delete and Insert
+It's can keep your pictures savely
+
+
 BUILD OUTPUT DESCRIPTION
 ========================
 
