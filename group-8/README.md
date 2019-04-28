@@ -13,3 +13,5 @@
 - the [demo]( https://dum-dum00.github.io/menu/demo.html ) of menu ( Phạm Phan Bách )
 - the [demo](https://dum-dum00.github.io/random_calculation/demo.html) of random quick math ( Trương Sĩ Thi Vũ )
 - the [demo](https://dum-dum00.github.io/menu/endGame.html) of high score ( Tạ Đức Anh )
+## System design diagram of project 
+The design of project is [here](https://github.com/larycoder/USTH-SE-2019/blob/project/group-8/doc/systemDesignDiagram.png?fbclid=IwAR3_iqXlgVxdoQnOgBj66OGOQllTD323DJUdXkIOhMlMAVAZNDbGR1366cw)
