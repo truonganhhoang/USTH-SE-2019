@@ -1,0 +1,73 @@
+﻿#div2 {
+    height: 300px;
+    width: 360px;
+    background-image: url(Screen%20Shot%202019-04-16%20at%202.25.52%20AM.png);
+    position: absolute;
+    left: auto;
+    top: -40px;
+    z-index: 3;
+}
+
+#trang {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    left: 400px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+
+#sanpham {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    left: 575px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+
+#gioithieu {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    left: 775px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+
+#bosuutap {
+    color: #FF9300;
+    font-weight: bold;
+    font-size: 30px;
+    left: 975px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+#hinh1 {
+    position: absolute;
+    z-index: 3;
+    left: 20px;
+    top: 250px;
+}
+#hinh2 {
+    position: absolute;
+    z-index: 3;
+    left: 500px;
+    top: 250px;
+}
+#hinh3 {
+    position: absolute;
+    z-index: 3;
+    left: 1000px;
+    top: 250px;
+}
+#hinh4 {
+    position: absolute;
+    z-index: 3;
+    left: 20px;
+    top: 650px;
+}

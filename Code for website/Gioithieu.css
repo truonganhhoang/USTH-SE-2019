@@ -1,0 +1,142 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+p{
+	color:#555;
+}
+body{
+	background-color: antiquewhite;
+}
+#comeback{
+	color: #000;
+	background-color: rgb(233, 169, 204);
+	font-weight: bold;
+	font-size: 36px;
+	left: 36px;
+	top: 1500px;
+	position: absolute;
+	z-index: 6;
+}
+#phanbe {
+    background-color: pink;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: 1000px;
+    top: -100px;
+    z-index: 8;
+}
+#khoantrong {
+    background-color: dimgray;
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 2600px;
+    z-index: 7;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+#logokhoantrong {
+    background-color: dimgray;
+    height: 300px;
+    width: 350px;
+    background-image: url(Screen%20Shot%202019-04-16%20at%202.25.52%20AM.png);
+    position: absolute;
+    left: 30px;
+    top: 2625px;
+    z-index: 7;
+}
+
+.hethongcuahang {
+    font-size: 70px;
+    color: #FF9300;
+    letter-spacing: 0px;
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+.U18BHQV {
+    font-size: 36px;
+    color: darksalmon;
+    letter-spacing: 10px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+#phanbe {
+    background-color: pink;
+    width: 850px;
+    height: 350px;
+    position: absolute;
+    left: 675px;
+    top: -25px;
+    z-index: 8;
+}
+
+.instagram {
+    color: dimgrey;
+    font-size: 50px;
+    margin-left: 900px;
+    margin-top: -375px;
+    position: absolute;
+    z-index: 9;
+}
+
+.web {
+    color: dimgrey;
+    font-size: 50px;
+    margin-left: 900px;
+    margin-top: -275px;
+    position: absolute;
+    z-index: 9;
+}
+
+.email {
+    color: dimgrey;
+    font-size: 50px;
+    margin-left: 900px;
+    margin-top: -95px;
+    position: absolute;
+    z-index: 9;
+}
+
+.sdt {
+    color: dimgrey;
+    font-size: 50px;
+    margin-left: 900px;
+    margin-top: -175px;
+    position: absolute;
+    z-index: 9;
+}
+
+.logoins {
+    font-size: 80px;
+    margin-left: 800px;
+    margin-top: -390px;
+    position: absolute;
+    z-index: 12;
+}
+
+.logoweb {
+    font-size: 80px;
+    margin-left: 800px;
+    margin-top: -300px;
+    position: absolute;
+    z-index: 12;
+}
+
+.logosdt {
+    font-size: 80px;
+    margin-left: 800px;
+    margin-top: -200px;
+    position: absolute;
+    z-index: 12;
+}
+
+.logoemail {
+    font-size: 80px;
+    margin-left: 800px;
+    margin-top: -120px;
+    position: absolute;
+    z-index: 12;
+}

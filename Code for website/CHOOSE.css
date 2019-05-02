@@ -1,0 +1,79 @@
+﻿#div2 {
+    height: 300px;
+    width: 360px;
+    background-image: url(Screen%20Shot%202019-04-16%20at%202.25.52%20AM.png);
+    position: absolute;
+    left: auto;
+    top: -40px;
+    z-index: 3;
+}
+
+#trang {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    left: 400px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+
+#sanpham {
+    color: #FF9300;
+    font-weight: bold;
+    font-size: 30px;
+    left: 575px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+
+#gioithieu {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    left: 775px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+#bosuutap {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    left: 975px;
+    top: 50px;
+    position: absolute;
+    z-index: 6;
+}
+#clothes {
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    left: 100px;
+    top: 250px;
+    position: absolute;
+    z-index: 6;
+}
+#logoquanao{
+    position:absolute;
+    z-index: 3;
+    left: 50px;
+    top: 400px;
+
+}
+#shoes {
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    left: 900px;
+    top: 250px;
+    position: absolute;
+    z-index: 6;
+}
+#logogiay {
+    position: absolute;
+    z-index: 3;
+    left: 825px;
+    top: 400px;
+}
