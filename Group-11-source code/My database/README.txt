@@ -1,0 +1,1 @@
+Upload all the file in this folder to phpmyadmin before run the application.
