@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>League Of Legends Service Shop</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/styleservice.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="main">	
+	<div id="site_content">
+      <div id="site_heading">
+	    <h1>Welcome to LOL shop</h1>	
+	  </div><!--close site_heading-->
+	  <div id="header">
+	    <div id="menubar">
+          <ul id="menu">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="index5.html">About</a></li>
+            <li><a href="index6.html">Contact</a></li>
+          </ul>
+        </div><!--close menubar-->
+      </div><!--close header-->	  
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/Webp.net-resizeimage4.jpg" alt="" />
+            <img src="images/Webp.net-resizeimage5.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider_wrapper-->
+	  </div><!--close banner_image-->			  
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Welcome To Our Shop</h1>
+          <p>This is the place for you to buy your favourite souvernir about the hottest game in the world "League of Legends". Feel free to choose your product. </p>
+        </div><!--close content_item-->
+	    <div class="content_image">
+		  <a href="#"><img style=" border: 10px solid #FFF;" alt="image" src="images/Webp.net-resizeimage1.jpg" /></a>
+		</div><!--close content_image-->
+		<div class="content_text">
+		  <p>We are selling the best mini figure which are cute and popular to teenagers and kids. Most of them are from USA with highest quality and very new. What are you waiting for? Let's come to join our shop.</p>
+		</div><!--close content_text-->  
+		<br style="clear:both"/>
+	    <div class="content_image_right">
+		  <a href="#"><img style=" border: 10px solid #FFF;" alt="image" src="images/Webp.net-resizeimage.jpg" /></a>
+		</div><!--close content_image-->
+		<div class="content_text_left">
+		  <p>There are also a lot of clothes that we sell to customers with unique picture print on it. We also sell T-shirt with pic of your choice, we will print it and deliver it to your home. Quickly order us for your favourite champion on your T-shirt</p>
+		</div><!--close content_text-->  		
+		
+	  </div><!--close content-->	    
+
+      <div class="sidebar_container">  		  
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Products</h2>
+			<h4>April 2016</h4>
+            <p>Rengar T-shirt</p>
+		      <a href="#">Read more</a>
+           </div><!--close sidebar_item--> 
+         </div><!--close sidebar-->     		
+	    <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest News</h2>
+		  	<h4>January 2016</h4>
+            <p>Invicius Gaming have won the World Championship</p>
+		      <a href="#">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Update</h2>
+			<h4>April 2016</h4>
+            <p>Read the new patch update here</p>
+		      <a href="#">Read more</a>
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  
+      </div><!--close sidebar_container-->  
+	  
+    </div><!--close site_content-->	
+    <div id="footer">  
+      <a href="https://www.facebook.com/Esport-for-NOOBS-1750749778404341/"><img src="./images/Webp.net-resizeimage2.png"></a>--------------------<a href="https://twitter.com/Trngln3?fbclid=IwAR33XumPDBEKjtXEaqlmNaxWR6wemyRX7f_lXJSad4dZULhRHcstVWAs_So"><img src="./images/Webp.net-resizeimage3.png"></a>
+    </div><!--close footer-->	
+  </div><!--close main-->	
+</body>
+</html>

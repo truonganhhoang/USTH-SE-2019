@@ -1,0 +1,92 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+header
+{
+	background-image: 
+	linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/wallhaven-713549.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li 
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: underline;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+
+}
+.main-nav li.active a 
+{
+	border: 1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.logo img
+{
+	width:100px;
+	height: auto;
+	float: left;
+}
+body
+{
+	font-family: monospace;
+}
+.row
+{
+	max-width: 1200px;
+	margin: auto; 
+}
+.Welcome
+{
+	position: absolute; 
+	top: 100px;
+	width: 1200px;
+	margin-left: 120px;
+	margin-top: 0;
+}
+.button
+{
+	margin-top: 500px;
+	margin-left: 450px;
+}
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: underline;
+	margin-right: 100px
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.btn-one
+{
+	background-color: orange;
+	font-family: "Roboto", sans-serif;
+}
+.btn-two
+{
+	font-family: "Roboto", sans-serif;
+}
+.btn-two:hover
+{
+	background-color: darkblue;
+	transition: all 0.5s ease-in;
+}

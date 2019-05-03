@@ -1,0 +1,83 @@
+{
+  margin: 0;
+  padding:0;
+}
+header
+{
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/wallhaven-713549.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.main-nav li 
+{
+  display: inline-block;
+}
+.main-nav li a
+{
+  color: white;
+  text-decoration: underline;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+
+}
+.main-nav li.active a 
+{
+  border: 1px solid white;
+}
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+.logo img
+{
+  width:100px;
+  height: auto;
+  float: left;
+  margin-left: 0px;
+}
+body{
+  display: block;
+  margin:0px;
+}
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 60px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: yellow;
+}
+

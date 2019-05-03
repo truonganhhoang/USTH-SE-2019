@@ -1,0 +1,27 @@
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li 
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: underline;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+
+}
+.main-nav li.active a 
+{
+	border: 1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
